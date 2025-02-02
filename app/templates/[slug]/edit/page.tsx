@@ -31,7 +31,7 @@ import Editor, { DiffEditor, useMonaco, loader } from "@monaco-editor/react";
 import { SetStateAction, useCallback, useEffect, useRef, useState } from "react";
 import { DrawerDemo } from "./components/drawer";
 import React from "react";
-import { WasmDemo } from "./components/wasm";
+// import { WasmDemo } from "./components/wasm";
 import { useWasm } from "@/lib/useWasm";
 
 // export const metadata: Metadata = {
