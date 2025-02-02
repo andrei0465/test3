@@ -1,7 +1,6 @@
 "use client"
 
 import * as React from "react"
-import { Minus, Plus } from "lucide-react"
 
 import { Button } from "@/components/ui/button"
 import {
@@ -12,7 +11,6 @@ import {
     DrawerFooter,
     DrawerHeader,
     DrawerTitle,
-    DrawerTrigger,
 } from "@/components/ui/drawer"
 
 const data = [
