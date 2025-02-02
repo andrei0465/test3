@@ -1,6 +1,8 @@
 import AccountForm from './account-form'
 import { createClient } from '@/utils/supabase/server'
 
+export const runtime = 'edge';
+
 export default async function Account() {
     const supabase = await createClient()
 

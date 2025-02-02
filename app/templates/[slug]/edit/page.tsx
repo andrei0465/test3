@@ -44,6 +44,8 @@ import { useWasm } from "@/lib/useWasm";
 //   document.body.style.overflow = 'hidden'
 // }
 
+export const runtime = 'edge';
+
 export default function PlaygroundPage() {
   const editorRef = useRef(null);
 
