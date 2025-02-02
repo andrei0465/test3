@@ -66,7 +66,7 @@ export default function PlaygroundPage() {
     [wasmExp]
   );
 
-  function handleEditorDidMount(editor, monaco) {
+  function handleEditorDidMount(editor: any) {
     // editor.setValue("asd")
     // console.log(editor.getValue())
     // console.log(mod?.parse("main.tf", ``, () => { }))
